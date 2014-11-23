@@ -1,6 +1,6 @@
-## This function
+## This program calculate a inver of a matrix
 
-## Write a short comment describing this function
+## This fuction set the function and the variables 
 
 makeCacheMatrix <- function(x = matrix()) {
     s <- NULL
@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function use the list created in the last funtion to calculate the inverse matrix 
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
